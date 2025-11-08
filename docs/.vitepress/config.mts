@@ -20,7 +20,7 @@ export default defineConfig({
         ]
       }
     ], //end nav
-    logo: 'favicon.svg',
+    logo: '/favicon.svg',
   
     // Footer configuration
     footer: {
