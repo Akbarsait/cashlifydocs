@@ -10,6 +10,7 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Feedback', link: 'https://thoughtaspires.featurebase.app/' },
       { text: 'Roadmap', link: 'https://thoughtaspires.featurebase.app/roadmap' },
+      { text: 'Changelog', link: 'https://thoughtaspires.userjot.com/updates'},
       // Dropdown menu enablement
       {
         text: 'Menu',
