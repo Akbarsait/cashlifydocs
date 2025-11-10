@@ -8,15 +8,14 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' },
-      { text: 'Akbar', link: '/api-examples' },
+      { text: 'Feedback', link: 'https://thoughtaspires.featurebase.app/' },
+      { text: 'Roadmap', link: 'https://thoughtaspires.featurebase.app/roadmap' },
       // Dropdown menu enablement
       {
         text: 'Menu',
         items: [
           { text: 'Item A', link: '/item-1' },
-          { text: 'Item B', link: '/item-2' },
-          { text: 'Item C', link: '/item-3' }
+          { text: 'Item B', link: '/item-2' }
         ]
       }
     ], //end nav
@@ -39,7 +38,10 @@ export default defineConfig({
       {
         text: 'Guides',
         items: [
-          { text: 'Git Workflow', link: '/guides/gitworkflow' }
+          { text: 'Git Workflow', link: '/guides/gitworkflow' },
+          { text: 'Account Transfer', link: '/guides/transfers' },
+          { text: 'Vitepress Guide', link: '/guides/vitepress' },
+          { text: 'Powered by PowerBoy', string: 'https://akbarsait.com' },
         ]
       }
     ],
