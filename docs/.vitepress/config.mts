@@ -32,7 +32,7 @@ export default defineConfig({
         text: 'Vite Examples',
         collapsed: true,
         items: [
-          { text: 'Vitepress Guide', link: '/guides/vitepress' },
+          { text: 'Vitepress Guide', link: '/thoughtaspires/vitepress' },
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
@@ -48,10 +48,10 @@ export default defineConfig({
       {
         text: 'ThoughtAspires Guides',
         items: [
-          { text: 'Git Workflow', link: '/guides/gitnetlify' },
-          { text: 'Deployment Process', link: '/guides/deployprocess' },
-          { text: 'Cashlify Test Cases', link: '/guides/testcase' },
-          { text: 'Cashlify Test Automation', link: '/guides/testautomation' }
+          { text: 'Git Netlify Workflow', link: '/thoughtaspires/gitnetlify' },
+          { text: 'Deployment Process', link: '/thoughtaspires/deployprocess' },
+          { text: 'Cashlify Test Cases', link: '/thoughtaspires/testcase' },
+          { text: 'Cashlify Test Automation', link: '/thoughtaspires/testautomation' }
         ]
       }
     ],
