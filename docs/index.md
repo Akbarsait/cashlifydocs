@@ -8,10 +8,13 @@ hero:
   tagline: A Simple way to track your expenses
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Cashlify Guides
+      link: /thoughtaspires/gitnetlify
     - theme: alt
-      text: API Examples
+      text: Vite Guides
+      link: /api-examples
+    - theme: alt
+      text: Thought Aspire Guides
       link: /api-examples
 
 features:
