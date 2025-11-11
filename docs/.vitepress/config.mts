@@ -29,20 +29,29 @@ export default defineConfig({
     },
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Vite Examples',
         collapsed: true,
         items: [
+          { text: 'Vitepress Guide', link: '/guides/vitepress' },
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       },
       {
-        text: 'Guides',
+        text: 'Cashlify Guides',
         items: [
-          { text: 'Git Workflow', link: '/guides/gitworkflow' },
           { text: 'Account Transfer', link: '/guides/transfers' },
-          { text: 'Vitepress Guide', link: '/guides/vitepress' },
-          { text: 'Powered by PowerBoy', string: 'https://akbarsait.com' },
+          { text: 'Categories', link: '/guides/categories' },
+          { text: 'Powered by PowerBoy', string: 'https://akbarsait.com' }
+        ]
+      },
+      {
+        text: 'ThoughtAspires Guides',
+        items: [
+          { text: 'Git Workflow', link: '/guides/gitnetlify' },
+          { text: 'Deployment Process', link: '/guides/deployprocess' },
+          { text: 'Cashlify Test Cases', link: '/guides/testcase' },
+          { text: 'Cashlify Test Automation', link: '/guides/testautomation' }
         ]
       }
     ],
